@@ -2,7 +2,7 @@
 
 This is a custom loading animation that I built on top of [N-Pass](https://github.com/TSnark/n-pass) for my project, [Nth Planet](https://nthpla.net). 
 
-I built a simple html page to showcase the demo here too:
+I built a simple html page to showcase the animation here:
 [Live Demo](n-spinner-demo.html)
 
 I've also added a directory here called [/add-to-n-pass](add-to-n-pass) which includes all of the NPass files that I modified to accomplish this.
