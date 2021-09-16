@@ -12,7 +12,7 @@ Simple HTML page to showcase the animation:
 Directory with all of the N-Pass files that I modified:  
 [/add-to-n-pass](add-to-n-pass)
 
-Easiest way to view code:   
+Easiest way to view the code:   
 [index.html](index.html) & [styles.css](styles.css)  
 
 ---
