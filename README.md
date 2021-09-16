@@ -7,7 +7,7 @@ I built a simple HTML page to showcase the animation:
 
 There's also a directory here called [/add-to-n-pass](add-to-n-pass) which includes all of the NPass files that I modified to accomplish this.
 
-The easiest way to view the code is to just look at these two files:  
+But the easiest way to view the code is to just look at these two files:  
 [index.html](index.html) & [styles.css](styles.css)  
 
 ### How I Created NSpinner
