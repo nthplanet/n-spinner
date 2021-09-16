@@ -19,7 +19,18 @@
     -webkit-animation-delay: 1s;
 }
 
-/* All of the N digits are styled individually, with different delays */
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}
+    } @keyframes rotate {
+    from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}
+}
+
+
+/* All of the N digits are styled individually, with different animation delays */
+/* They are then animated into new x,y positions to form a circle */
+
 svg .num1 {
     fill: white; 
     font-family: serif; 
@@ -29,6 +40,12 @@ svg .num1 {
     -webkit-animation: centerize1 2s 1 forwards;
     animation-delay: 1s;
     -webkit-animation-delay: 1s;
+} @keyframes centerize1 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(160px, 78px);}
+} @-webkit-keyframes centerize1 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(160px, 78px);}
 }
 
 svg .num2 {
@@ -40,6 +57,12 @@ svg .num2 {
     animation-delay: 1.05s;
     -webkit-animation: centerize2 2s 1 forwards;
     -webkit-animation-delay: 1.05s;
+} @keyframes centerize2 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(220px, 80px);}
+} @-webkit-keyframes centerize2 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(220px, 80px);}
 }
 
 svg .num3 {
@@ -50,6 +73,12 @@ svg .num3 {
     animation: centerize3 2s 1 forwards;
     animation-delay: 1.1s;
     -webkit-animation-delay: 1.1s;
+} @keyframes centerize3 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(246px, 117px);}
+} @-webkit-keyframes centerize3 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(246px, 117px);}
 }
 
 svg .num4 {
@@ -61,6 +90,12 @@ svg .num4 {
     -webkit-animation: centerize4 2s 1 forwards;
     animation-delay: 1.15s;
     -webkit-animation-delay: 1.15s;
+} @keyframes centerize4 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(221px, 157px);}
+} @-webkit-keyframes centerize4 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(221px, 157px);}
 }
 
 svg .num5 {
@@ -72,6 +107,12 @@ svg .num5 {
     -webkit-animation: centerize5 2s 1 forwards;
     animation-delay: 1.2s;
     -webkit-animation-delay: 1.2s;
+} @keyframes centerize5 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(160px, 162px);}
+} @-webkit-keyframes centerize5 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(160px, 162px);}
 }
 
 svg .num6 {
@@ -83,6 +124,12 @@ svg .num6 {
     -webkit-animation: centerize6 2s 1 forwards;
     animation-delay: 1.25s;
     -webkit-animation-delay: 1.25s;
+} @keyframes centerize6 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(100px, 116px);}
+} @-webkit-keyframes centerize6 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(100px, 116px);}
 }
 
 svg .num7 {
@@ -94,6 +141,12 @@ svg .num7 {
     -webkit-animation: centerize7 2s 1 forwards;
     animation-delay: 1.3s;
     -webkit-animation-delay: 1.3s;
+} @keyframes centerize7 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(78px, 38px);}
+} @-webkit-keyframes centerize7 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(78px, 38px);}
 }
 
 svg .num8 {
@@ -105,85 +158,10 @@ svg .num8 {
     -webkit-animation: centerize8 2s 1 forwards;
     animation-delay: 1.35s;
     -webkit-animation-delay: 1.35s;
-}
-
-/* Center the first digit */
-@keyframes centerize1 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(160px, 78px);}
-} @-webkit-keyframes centerize1 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(160px, 78px);}
-}
-
-/* Center the second digit */
-@keyframes centerize2 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(220px, 80px);}
-} @-webkit-keyframes centerize2 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(220px, 80px);}
-}
-
-/* Center the third digit */
-@keyframes centerize3 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(246px, 117px);}
-} @-webkit-keyframes centerize3 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(246px, 117px);}
-}
-
-/* Center the fourth digit */
-@keyframes centerize4 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(221px, 157px);}
-} @-webkit-keyframes centerize4 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(221px, 157px);}
-}
-
-/* Center the fifth digit */
-@keyframes centerize5 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(160px, 162px);}
-} @-webkit-keyframes centerize5 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(160px, 162px);}
-}
-
-/* Center the sixth digit */
-@keyframes centerize6 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(100px, 116px);}
-} @-webkit-keyframes centerize6 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(100px, 116px);}
-}
-
-/* Center the seventh digit */
-@keyframes centerize7 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(78px, 38px);}
-} @-webkit-keyframes centerize7 {
-    from {transform: translate(0px, 0px);}
-    to {transform: translate(78px, 38px);}
-}
-
-/* Center the eigth digit */
-@keyframes centerize8 {
+} @keyframes centerize8 {
     from {transform: translate(0px, 0px);}
     to {transform: translate(103px, -40px);}
 } @-webkit-keyframes centerize8 {
     from {transform: translate(0px, 0px);}
     to {transform: translate(103px, -40px);}
-}
-
-/* Rotate the inner div */
-@keyframes rotate {
-    from {transform: rotate(0deg);}
-      to {transform: rotate(360deg);}
-    } @keyframes rotate {
-    from {transform: rotate(0deg);}
-      to {transform: rotate(360deg);}
 }
