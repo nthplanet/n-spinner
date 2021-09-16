@@ -2,6 +2,8 @@
 
 This is a custom loading animation that I built on top of [N-Pass](https://github.com/TSnark/n-pass) for my project, [Nth Planet](https://nthpla.net). 
 
+---
+
 #### Repo Contents
 
 Simple HTML page to showcase the animation:  
@@ -12,6 +14,8 @@ Directory with all of the N-Pass files that I modified:
 
 Easiest way to view code:   
 [index.html](index.html) & [styles.css](styles.css)  
+
+---
 
 #### Dev Diary
 It should be noted that I am a <ins>very</ins> inexperienced developer, so the steps I took to accomplish this may be very far from the most efficient. Still, I've included a breakdown here in hopes that some may find it interesting, or better yet, let me know what I could have done better.
