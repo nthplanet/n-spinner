@@ -1,6 +1,6 @@
 # N Spinner
 
-This is a custom loading animation that I built on top of <a href="https://github.com/TSnark/n-pass" target="_blank">N-Pass</a> for my project, [Nth Planet](https://nthpla.net). 
+This is a custom loading animation that I built on top of [N-Pass](https://github.com/TSnark/n-pass) for my project, [Nth Planet](https://nthpla.net). 
 
 I built a simple HTML page to showcase the animation here:  
 [Live Demo](https://nthplanet.github.io/n-spinner/)
