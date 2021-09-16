@@ -15,9 +15,7 @@ It should be noted that I am a very inexperienced developer, so the steps I took
   1. The client 'n.ts' did not seem to return the individual numeric values by default, so I made the necessary changes within that file, and then added those values to my reconstruction.
   1. I later learned that Safari/Webkit does not support animating Text elements within a SVG file, so I added Group(g) tags around each number and animated those instead.
 1. I'm sure there's a better way to trigger the start of an animation, but I decided to create a new file called NCardAnimated.tsx, which is identical to NCard.tsx except that the elements are tagged with different classes. My solution is as simple as revealing NCardAnimated in place of NCard when minting is initiated.
-1. I then added a bunch of poorly written and unorganized styles to globals.css
-  1. First, the numbers are all translated to new (x,y) positions that I calculated by hand.
-  1. Then, the entire Flex is rotated (and nested within another Flex that has overflow set to hidden)
+1. I then added a bunch of CSS to the global styles file. First, the numbers are translated to new (x,y) positions that I calculated by hand. And then, the entire surrounding Flex is rotated.
 
 Anyways, I had a lot of fun building this. 
 
