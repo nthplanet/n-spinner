@@ -10,7 +10,7 @@ There's also a directory called [/add-to-n-pass](add-to-n-pass) which includes a
 But the easiest way to view the code is to just look at these two files:  
 [index.html](index.html) & [styles.css](styles.css)  
 
-#### How I Created NSpinner
+#### Dev Diary
 It should be noted that I am a <ins>very</ins> inexperienced developer, so the steps I took to accomplish this may be very far from the most efficient. Still, I've included a breakdown here in hopes that some may find it interesting, or better yet, let me know what I could have done better.
 
 1. To animate SVG elements individually, you need to tag them with individual class names. This meant I needed to "manually" reconstruct the N image instead of just pulling in the SVG data directly from the contract.
