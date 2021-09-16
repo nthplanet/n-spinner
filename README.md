@@ -27,6 +27,8 @@ It should be noted that I am a <ins>very</ins> inexperienced developer, so the s
 1. I'm certain there are many better ways to trigger the start of an animation, but I decided to create a new file called NCardAnimated.tsx, which is identical to NCard.tsx except that the elements are assigned to a different set of CSS classes. In the solution I went with, NCardAnimated is revealed in place of NCard when minting is initiated.
 1. I then added a bunch of CSS animations to the global styles file. First, the N numbers are all transformed to new positions to form a circle. And then, the entire surrounding Flex is rotated to achieve the spin.
 
+---
+
 Anyways, I had a lot of fun building this. 
 
 Huge shout out to TSnark and Knav for N-Pass. It's been a great playground for me.
