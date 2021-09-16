@@ -1,4 +1,4 @@
-/* Just for github demo, accomplished within a chakra-ui box in n-pass */
+/* Outer Div, with overflow hidden to hide spinning inner div */
 .outerNCard {
     margin: auto;
     width: 50%;
@@ -9,6 +9,7 @@
     border-style: solid;
 }
 
+/* Inner Div with animated rotation */
 .nCard {
     background: black;
     transform-origin: center;
@@ -18,6 +19,7 @@
     -webkit-animation-delay: 1s;
 }
 
+/* All of the N digits are styled individually, with different delays */
 svg .num1 {
     fill: white; 
     font-family: serif; 
@@ -177,7 +179,7 @@ svg .num8 {
     to {transform: translate(103px, -40px);}
 }
 
-/* Rotate the bg */
+/* Rotate the inner div */
 @keyframes rotate {
     from {transform: rotate(0deg);}
       to {transform: rotate(360deg);}
