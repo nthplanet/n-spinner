@@ -2,10 +2,10 @@
 
 This is a custom loading animation that I built on top of [N-Pass](https://github.com/TSnark/n-pass) for my project, [Nth Planet](https://nthpla.net). 
 
-I built a simple HTML page to showcase the animation:  
+I built a simple HTML page to showcase the animation here:  
 [Live Demo](https://nthplanet.github.io/n-spinner/)
 
-There's also a directory here called [/add-to-n-pass](add-to-n-pass) which includes all of the NPass files that I modified to accomplish this.
+There's also a directory called [/add-to-n-pass](add-to-n-pass) which includes all of the NPass files that I modified to accomplish this.
 
 But the easiest way to view the code is to just look at these two files:  
 [index.html](index.html) & [styles.css](styles.css)  
