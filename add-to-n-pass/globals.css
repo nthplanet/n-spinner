@@ -1,0 +1,217 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: monospace;
+    background: #fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer {
+    clear: left;
+    text-align: center;
+    margin: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.circle-picker {
+    justify-content: normal;
+}
+
+/* --------------- */
+/* NSpinner Styles */
+/* --------------- */
+
+.nCard {
+    background: black;
+    transform-origin: center;
+}
+
+.nCardAnimated {
+    background: black;
+    transform-origin: center;
+    animation: rotate 1.5s infinite linear;
+    -webkit-animation: rotate 1.5s infinite linear;
+}
+
+.num {
+    fill: white; 
+    font-family: serif; 
+    font-size: 14px;
+}
+
+.num1 {
+    fill: white; 
+    font-family: serif; 
+    font-size: 14px;
+    transform-origin: center;
+    animation: centerize1 2s 1 forwards;
+    -webkit-animation: centerize1 2s 1 forwards;
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+.num2 {
+    fill: white; 
+    font-family: serif; 
+    font-size: 14px;
+    transform-origin: center;
+    animation: centerize2 2s 1 forwards;
+    animation-delay: 0.05s;
+    -webkit-animation: centerize2 2s 1 forwards;
+    -webkit-animation-delay: 0.05s;
+}
+
+.num3 {
+    fill: white; 
+    font-family: serif; 
+    font-size: 14px;
+    transform-origin: center;
+    animation: centerize3 2s 1 forwards;
+    animation-delay: 0.1s;
+    -webkit-animation-delay: 0.1s;
+}
+
+.num4 {
+    fill: white; 
+    font-family: serif; 
+    font-size: 14px;
+    transform-origin: center;
+    animation: centerize4 2s 1 forwards;
+    -webkit-animation: centerize4 2s 1 forwards;
+    animation-delay: 0.15s;
+    -webkit-animation-delay: 0.15s;
+}
+
+.num5 {
+    fill: white; 
+    font-family: serif; 
+    font-size: 14px;
+    transform-origin: center;
+    animation: centerize5 2s 1 forwards;
+    -webkit-animation: centerize5 2s 1 forwards;
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+}
+
+.num6 {
+    fill: white; 
+    font-family: serif; 
+    font-size: 14px;
+    transform-origin: center;
+    animation: centerize6 2s 1 forwards;
+    -webkit-animation: centerize6 2s 1 forwards;
+    animation-delay: 0.25s;
+    -webkit-animation-delay: 0.25s;
+}
+
+.num7 {
+    fill: white; 
+    font-family: serif; 
+    font-size: 14px;
+    transform-origin: center;
+    animation: centerize7 2s 1 forwards;
+    -webkit-animation: centerize7 2s 1 forwards;
+    animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+}
+
+.num8 {
+    fill: white; 
+    font-family: serif;
+    font-size: 14px;
+    transform-origin: 50% 50%;
+    animation: centerize8 2s 1 forwards;
+    -webkit-animation: centerize8 2s 1 forwards;
+    animation-delay: 0.35s;
+    -webkit-animation-delay: 0.35s;
+}
+
+/* Center the first digit */
+@keyframes centerize1 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(160px, 78px);}
+} @-webkit-keyframes centerize1 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(160px, 78px);}
+}
+
+/* Center the second digit */
+@keyframes centerize2 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(220px, 80px);}
+} @-webkit-keyframes centerize2 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(220px, 80px);}
+}
+
+/* Center the third digit */
+@keyframes centerize3 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(246px, 117px);}
+} @-webkit-keyframes centerize3 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(246px, 117px);}
+}
+
+/* Center the fourth digit */
+@keyframes centerize4 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(221px, 157px);}
+} @-webkit-keyframes centerize4 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(221px, 157px);}
+}
+
+/* Center the fifth digit */
+@keyframes centerize5 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(160px, 162px);}
+} @-webkit-keyframes centerize5 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(160px, 162px);}
+}
+
+/* Center the sixth digit */
+@keyframes centerize6 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(100px, 116px);}
+} @-webkit-keyframes centerize6 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(100px, 116px);}
+}
+
+/* Center the seventh digit */
+@keyframes centerize7 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(78px, 38px);}
+} @-webkit-keyframes centerize7 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(78px, 38px);}
+}
+
+/* Center the eigth digit */
+@keyframes centerize8 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(103px, -40px);}
+} @-webkit-keyframes centerize8 {
+    from {transform: translate(0px, 0px);}
+    to {transform: translate(103px, -40px);}
+}
+
+/* Rotate the bg */
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}
+    } @keyframes rotate {
+    from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}
+}
