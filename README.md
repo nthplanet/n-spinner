@@ -8,7 +8,7 @@ I built a simple HTML page to showcase the animation here:
 There's also a directory here called [/add-to-n-pass](add-to-n-pass) which includes all of the NPass files that I modified to accomplish this.
 
 ### How I Created NSpinner
-It should be noted that I am a very inexperienced developer, so the steps I took to accomplish this may be very far from the most efficient. Still, I've included a breakdown here in hopes that some may find it interesting, or better yet, let me know what I could have done better.
+It should be noted that I am a <ins>very</ins> inexperienced developer, so the steps I took to accomplish this may be very far from the most efficient. Still, I've included a breakdown here in hopes that some may find it interesting, or better yet, let me know what I could have done better.
 
 1. To animate svg elements, you need to tag them with individual class names. This meant I needed to "manually" reconstruct the N image instead of just pulling in the SVG data from the N contract.
   1. Within the NCard.tsx file, I built a skeleton of the N image, but then needed to find a way to import the relevant numeric values when an N is selected.
