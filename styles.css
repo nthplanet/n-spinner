@@ -1,6 +1,6 @@
 
 
-/* Outer Div, with overflow hidden to hide spinning inner div */
+/* Outer Div, with overflow hidden to contain the rotating inner div */
 .outerNCard {
     margin: auto;
     width: 50%;
@@ -19,9 +19,7 @@
     -webkit-animation: rotate 1.5s infinite linear;
     animation-delay: 1s;
     -webkit-animation-delay: 1s;
-}
-
-@keyframes rotate {
+} @keyframes rotate {
     from {transform: rotate(0deg);}
       to {transform: rotate(360deg);}
     } @keyframes rotate {
